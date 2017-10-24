@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="dwr-demo:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="dwr-demo.war">
-      <element id="artifact" artifact-name="dwr-demo:war exploded" />
-    </root>
-  </artifact>
-</component>
