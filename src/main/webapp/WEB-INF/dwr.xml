@@ -4,7 +4,7 @@
 <dwr>
     <allow>
         <create creator="new" javascript="HelloWorldService">
-            <param name="class" value="com.ustbyjy.dwr.service.HelloWorldService"/>
+            <param name="class" value="com.ustbyjy.dwr.service.HelloWorldService" />
         </create>
     </allow>
 </dwr>

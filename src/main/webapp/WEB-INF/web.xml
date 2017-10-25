@@ -7,6 +7,11 @@
         <servlet-name>dwr-invoker</servlet-name>
         <!-- 接收js的Ajax请求的servlet -->
         <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+        <!-- 启用逆向Ajax -->
+        <init-param>
+            <param-name>activeReverseAjaxEnabled</param-name>
+            <param-value>true</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>
